@@ -20,7 +20,8 @@ ITEM_PIPELINES = {'stackoverflow.pipelines.StackoverflowPipeline': 10}
 MONGODB_SERVER = "192.168.1.47"
 MONGODB_PORT = 27017
 MONGODB_DB = "stackoverflow"
-MONGODB_COLLECTION = "language"
+# MONGODB_COLLECTION = "language"
+MONGODB_COLLECTION = "documentation"
 
 # DOWNLOAD_DELAY = 5
 

@@ -10,3 +10,14 @@ class StackoverflowItem(scrapy.Item):
     asktoday = scrapy.Field()
     askweek = scrapy.Field()
     freq = scrapy.Field()
+
+
+class StackDocument(scrapy.Item):
+	"""docstring for StackDocument"""
+	name = scrapy.Field()
+	numTopic = scrapy.Field()
+	numRequest = scrapy.Field()
+	numProposed = scrapy.Field()
+	numImprovement = scrapy.Field()
+	link = scrapy.Field()
+		
