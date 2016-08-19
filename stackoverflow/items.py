@@ -20,4 +20,20 @@ class StackDocument(scrapy.Item):
 	numProposed = scrapy.Field()
 	numImprovement = scrapy.Field()
 	link = scrapy.Field()
-		
+
+class StackQuestion(scrapy.Item):
+	"""docstring for StackQuestion"""
+	title = scrapy.Field()
+	link = scrapy.Field()
+	description = scrapy.Field()
+	vote = scrapy.Field()
+	answer = scrapy.Field()
+	view = scrapy.Field()
+	tag = scrapy.Field()
+	person = scrapy.Field()
+
+class StackPerson(scrapy.Item):
+	"""docstring for StackQuestion"""
+	name = scrapy.Field()
+	avatar = scrapy.Field()
+	reputation = scrapy.Field()
