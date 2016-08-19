@@ -6,7 +6,7 @@ class StackquestionSpider(scrapy.Spider):
     name = "stackQuestion"
     allowed_domains = ["stackoverflow.com"]
     start_urls = (
-        'http://stackoverflow.com/questions?page=371&sort=newest',
+        'http://stackoverflow.com/questions?page=4152&sort=newest',
     )
 
     def parse(self, response):
