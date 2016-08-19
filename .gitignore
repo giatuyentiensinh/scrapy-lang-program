@@ -1,0 +1,3 @@
+*.pyc
+stackoverflow/*.pyc
+stackoverflow/spiders/*.pyc
